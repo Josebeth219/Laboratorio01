@@ -1,7 +1,7 @@
 from colorama import Fore, Style
 
 class ElementoMapa:
-    def _init_(self, r, c, tipo, simbolo, color):
+    def __init__(self, r, c, tipo, simbolo, color):
         self.r = r
         self.c = c
         self.tipo = tipo

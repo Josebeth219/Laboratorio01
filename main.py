@@ -25,7 +25,7 @@ def marco(r_ini, c_ini, ancho, alto):
     print_at(r_ini + alto - 1, c_ini + ancho - 1, "┘")
 
 class Juego:
-    def _init_(self):
+    def __init__(self):
         self.limite_r_min = 4
         self.limite_r_max = 18
         self.limite_c_min = 3
@@ -198,6 +198,6 @@ class Juego:
                 break
             self.procesar_turno(tecla)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     juego = Juego()
     juego.ejecutar()

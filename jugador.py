@@ -1,7 +1,7 @@
 from colorama import Fore, Style
 
 class Jugador:
-    def _init_(self, r=5, c=5, nombre="Heroe"):
+    def __init__(self, r=5, c=5, nombre="Heroe"):
         self.r = r
         self.c = c
         self.nombre = nombre
